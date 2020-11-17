@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"UJb+":function(e,a,n){"use strict";n.r(a);var t=n("q1tI"),c=n.n(t),r=n("8k0H");a.default=function(){return c.a.createElement(r.a,null,c.a.createElement("section",{className:"dashboard-page"},c.a.createElement("h1",null,"Dashboard")))}}}]);
+//# sourceMappingURL=component---src-pages-dashboard-jsx-6b1d1fec6117609b7311.js.map

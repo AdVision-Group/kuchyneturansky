@@ -1,0 +1,21 @@
+{
+  "paths": [
+    {
+      "path": "/404/"
+    },
+    {
+      "path": "/dashboard/"
+    },
+    {
+      "path": "/"
+    },
+    {
+      "path": "/sign-in/"
+    },
+    {
+      "path": "/404.html"
+    }
+  ],
+  "redirects": [],
+  "pathPrefix": "/kuchyneturansky"
+}

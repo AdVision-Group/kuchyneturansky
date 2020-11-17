@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{SyfE:function(e,n,a){"use strict";a.r(n);var t=a("q1tI"),c=a.n(t),i=a("8k0H");n.default=function(){return c.a.createElement(i.a,null,c.a.createElement("section",{className:"sign-in"},c.a.createElement("h1",null,"Login page")))}}}]);
+//# sourceMappingURL=component---src-pages-sign-in-jsx-4c9a0bf7905082b833fe.js.map
