@@ -48,7 +48,7 @@ const CustomSlider = ({ items }) => {
                             onExited={() => setAnimating(false)}
                             key={idx}
                         >
-                            <CustomImage src={process.env.ENDPOINT + item.imagePath} alt={item.alt} />
+                            <CustomImage src={process.env.ENDPOINT + "/" + item.imagePath} alt={item.alt} />
                         </CarouselItem>
                     );
                 })}
