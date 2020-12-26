@@ -1,10 +1,10 @@
 FROM node:13.12.0-alpine
 
-WORKDIR /server
+WORKDIR /app
 COPY package.json .
 RUN npm install
 
-ADD . .
+COPY . .
 
 EXPOSE 9000
 
