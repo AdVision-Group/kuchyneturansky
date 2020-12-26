@@ -2,32 +2,32 @@ version: "3"
 
 services: 
   # Production build
-  # web:
-  #   restart: always
-  #   build: ./client
-  #   command: gatsby serve -H 0.0.0.0
-  #   # Port where app will be accessible [outside world]:[inside container]
-  #   ports:
-  #     - "8080:9000"
-  #   volumes:
-  #     - ./client:/client
-  #   networks:
-  #     - local
-
-  # Development build include hot reloading
   web:
     restart: always
-    build:
-      context: ./client
-      dockerfile: Dockerfile.development
-    command: gatsby develop -H 0.0.0.0
+    build: ./client
+    command: gatsby serve -H 0.0.0.0
+    # Port where app will be accessible [outside world]:[inside container]
     ports:
-      - "8080:8000"
+      - "8080:9000"
     volumes:
       - ./client:/client
-      - node_modules:/client/node_modules
     networks:
       - local
+
+  # Development build include hot reloading
+  # web:
+  #   restart: always
+  #   build:
+  #     context: ./client
+  #     dockerfile: Dockerfile.development
+  #   command: gatsby develop -H 0.0.0.0
+  #   ports:
+  #     - "8080:8000"
+  #   volumes:
+  #     - ./client:/client
+  #     - node_modules:/client/node_modules
+  #   networks:
+  #     - local
 
   # Backend nodeJS app  
   back-end:
@@ -96,8 +96,8 @@ services:
     depends_on:
       - mongodb
 
-volumes:
-  node_modules:
+# volumes:
+#   node_modules:
 
 networks:
   local:
