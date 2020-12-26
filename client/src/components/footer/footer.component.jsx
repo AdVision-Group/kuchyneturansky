@@ -2,7 +2,7 @@ import React from 'react'
 import { navigate } from 'gatsby'
 import scrollTo from 'gatsby-plugin-smoothscroll'
 
-import { FooterContainer, RowStyles, ColStyles, NavLink } from './footer.styles'
+import { FooterContainer, RowStyles, ColStyles, NavLink, Watermark } from './footer.styles'
 
 const Footer = () => {
     const handleClickNavLink = (path) => {
@@ -108,6 +108,9 @@ const Footer = () => {
                     </NavLink>
                 </ColStyles>
             </RowStyles>
+            <Watermark>
+                © 2020 kuchyne-turansky.sk | Web created by <a href="https://advision.sk/">AdVision Digital Marketing</a>
+            </Watermark>
         </FooterContainer>
     )
 }

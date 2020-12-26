@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const FooterContainer = styled.footer`
     background-color: black;
     color: #fff;
-    padding: 10rem 3rem;
+    padding: 10rem 3rem 2rem;
 
     @media all and (max-width: 800px) {
         padding: 7rem 2rem;
@@ -76,4 +76,21 @@ export const NavLink = styled.button`
         color: #ddd;
         text-decoration: none
     }
+`
+
+export const Watermark = styled.div`
+    text-align: center;
+    color: rgba(255,255,255,.4);
+    font-size: 1.5rem;
+    margin-top: 4rem;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+
+        &:hover {
+            color: rgba(255,255,255,.83);
+        }
+    }
+
 `

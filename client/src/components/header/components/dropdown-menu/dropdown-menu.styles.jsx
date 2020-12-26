@@ -56,6 +56,7 @@ export const CloseIcon = styled.button`
     display: none;
 
     @media all and (max-width: 800px) {
+        padding: 1rem;
         cursor: pointer;
         position: absolute;
         right: 2rem;
