@@ -70,6 +70,7 @@ export const CloseIcon = styled.button`
         background-color: transparent;
         opacity: 1;
         transition: color .2s ease-out;
+        z-index: 999999;
 
         &:hover {
             color: #777;
