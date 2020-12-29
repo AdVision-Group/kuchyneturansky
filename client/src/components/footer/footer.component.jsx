@@ -108,7 +108,11 @@ const Footer = () => {
                     </NavLink>
                 </ColStyles>
             </RowStyles>
-            <Watermark>
+            <Watermark
+                data-sal="fade"
+                data-sal-duration='500'
+                data-sal-easing="ease-out"
+            >
                 © 2020 kuchyne-turansky.sk | Web created by <a href="https://advision.sk/">AdVision Digital Marketing</a>
             </Watermark>
         </FooterContainer>
