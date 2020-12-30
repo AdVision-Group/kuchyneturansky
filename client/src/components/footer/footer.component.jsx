@@ -86,10 +86,11 @@ const Footer = () => {
                         Slovensko
                     </p>
                     <p>
-                        info@kuchyne-turansky.sk
+                        <a href="mailto:info@kuchyne-turansky.sk">info@kuchyne-turansky.sk</a>
                     </p>
                     <p>
-                        +421 905 784 087
+                        <a href="tel:+421 905 784 087">+421 905 784 087</a>
+
                     </p>
                 </ColStyles>
                 <ColStyles

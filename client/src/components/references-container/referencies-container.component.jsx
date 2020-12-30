@@ -64,7 +64,7 @@ const Referencies = ({ category }) => {
                     ))
                 ) : (
                         <MessageContainer>
-                            Žiadné refencie
+                            Žiadne referencie
                         </MessageContainer>
                     )
                 }

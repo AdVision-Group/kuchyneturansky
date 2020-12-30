@@ -47,6 +47,11 @@ export const ColStyles = styled.div`
         font-size: 1.6rem;
         opacity: .6;
         margin-bottom: 1rem;
+
+        a {
+            text-decoration: none !important;
+            color: #fff;
+        }
     }
 
     @media all and (max-width: 500px) {
