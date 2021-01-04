@@ -82,6 +82,29 @@ export const NavLink = styled.button`
         text-decoration: none
     }
 `
+export const SocialLink = styled.a`
+    font-weight: 400;
+    font-size: 1.6rem   ;
+    opacity: .6;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    transition: color .2s ease-out;
+    background-color: transparent;
+    border:none;
+    outline: none;
+
+    &:focus {
+        outline: none;
+
+    }
+
+    &:hover {
+        color: #ddd;
+        text-decoration: none
+    }
+`
 
 export const Watermark = styled.div`
     text-align: center;

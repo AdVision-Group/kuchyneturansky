@@ -63,7 +63,7 @@ const HeroSection = ({ className }) => {
                             <LogoContainer>
                                 <Image fluid={brandLogo} />
                             </LogoContainer>
-                            <SocialLinksContainer>
+                            <a href='https://www.facebook.com/Stol%C3%A1rstvo-Turansk%C3%BD-162273167167098/'>
                                 <SocialIcon
                                     data-sal="fade"
                                     data-sal-duration='1000'
@@ -71,15 +71,7 @@ const HeroSection = ({ className }) => {
                                 >
                                     <Image fluid={fbLogo} />
                                 </SocialIcon>
-                                <SocialIcon
-                                    data-sal="fade"
-                                    data-sal-delay="200"
-                                    data-sal-duration='1000'
-                                    data-sal-easing="ease-out"
-                                >
-                                    <Image fluid={igLogo} />
-                                </SocialIcon>
-                            </SocialLinksContainer>
+                            </a>
                         </HeroContent>
                     </BackgroundImage>
                 )

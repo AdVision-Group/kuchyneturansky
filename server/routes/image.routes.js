@@ -103,8 +103,8 @@ router.patch('/', authenticateToken, (req, res) => {
 router.delete('/:id', authenticateToken, getImage, async (req, res) => {
     try {
         if(res.image) {
-            if(fs.existsSync(`../server/${res.image.imagePath}`)) {
-                fs.unlinkSync(`../server/${res.image.imagePath}`)
+            if(fs.existsSync(`../app/${res.image.imagePath}`)) {
+                fs.unlinkSync(`../app/${res.image.imagePath}`)
                 await res.image.delete()
                 res.json({
                     message: "Successfully deleted",

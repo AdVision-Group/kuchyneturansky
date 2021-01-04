@@ -13,12 +13,16 @@ export const HeroContent = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
 `
 
 export const SocialLinksContainer = styled.div`
-    width: 14rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 `
 
 export const SocialIcon = styled.div`

@@ -162,7 +162,7 @@ const ReferenceProvider = ({ children }) => {
         try {
             const response = await delImage(imageId)
             const data = await response.json()
-
+            console.log(data)
 
             setReference({
                 ...reference,

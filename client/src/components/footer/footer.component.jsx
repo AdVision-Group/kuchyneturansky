@@ -2,7 +2,7 @@ import React from 'react'
 import { navigate } from 'gatsby'
 import scrollTo from 'gatsby-plugin-smoothscroll'
 
-import { FooterContainer, RowStyles, ColStyles, NavLink, Watermark } from './footer.styles'
+import { FooterContainer, RowStyles, ColStyles, NavLink, Watermark, SocialLink } from './footer.styles'
 
 const Footer = () => {
     const handleClickNavLink = (path) => {
@@ -101,12 +101,10 @@ const Footer = () => {
                 >
                     <h3>SOCIÁLNE SIETE</h3>
 
-                    <NavLink>
+                    <SocialLink href='https://www.facebook.com/Stol%C3%A1rstvo-Turansk%C3%BD-162273167167098/'>
                         Facebook
-                    </NavLink>
-                    <NavLink>
-                        Instagram
-                    </NavLink>
+                    </SocialLink>
+
                 </ColStyles>
             </RowStyles>
             <Watermark

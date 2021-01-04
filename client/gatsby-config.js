@@ -7,7 +7,7 @@ module.exports = {
   // pathPrefix: `/`,
   siteMetadata: {
     title: `Kuchyne Turanský`,
-    description: `Naše zákazkové stolárstvo v Špačinciach - okr. Trnava bolo založené vroku 2002 zo zameraním na výrobu kuchynských liniek. Ponúkame kvalitnú výrobu nábytku na mieru , ktorá splní všetky vaše požiadavky a potreby. Použitie výhradne kvalitných materiálov od dodávateľov ako napríklad  Egger,Kaindl ,Fundermax ,Blum  je zárukou dlhej životnosti a odolnosti. Aby bola dosiahnutá čo najlepšia kvalita apresnosť  našich výrobkov tak používame stroje od firmy Felder aHolz-Her. Samozrejmosťou je odborné poradenstvo a individuálny prístup ku každému zákazníkovi. Veríme, že tak ako mnohí pred Vami, i Vy budete spokojní s nábytkom na mieru od nás. Splnenie Vašich požiadaviek je pre nás prioritou. Preto naša ponuka nepozná obmedzenie či už v oblasti dizajnu a štýlu, ale i v oblasti doplnkov a farebných prevedení. V prípade, že sme Vás zaujali, neváhajte nás osloviť prostredníctvom ktoréhokoľvek z uvedených kontaktných údajov. Tešíme sa na spoluprácu.`,
+    description: `Firma je zameraná na výrobu so špecializáciou na moderné kuchynské linky na mieru a sektorového nábytku (vstavané skrine, detské izby, kancelársky nábytok, obyvačkové zostavy...). Nemáme obmedzené možnosti štýlov, limitovaný výber farieb a nápadov. Vyrobíme pre Vás moderné kuchynské linky na mieru ako aj ostatný nábytok podľa želania. Pomôžeme Vám tiež pri výbere spotrebičov. Ku každému zákazníkovi pristupujeme individuálne a všetky produkty sú vyrábané na mieru a vo vlastnej výrobe.`,
     author: `@Advision-solution`,
 
   },
