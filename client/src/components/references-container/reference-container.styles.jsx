@@ -34,9 +34,9 @@ export const CardCol = styled.div`
 
 
     img {
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
+        /* width: 100%; */
+        object-fit: contain;
+        object-position: center center;
     }
 
     h2 {
