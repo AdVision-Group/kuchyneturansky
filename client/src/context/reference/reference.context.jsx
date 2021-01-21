@@ -82,8 +82,22 @@ const ReferenceProvider = ({ children }) => {
     }
 
     const handleUploadButton = (files) => {
+        console.log(files)
         const filesArr = Object.keys(files).map(key => files[key])
-        const arr = filesArr.map(file => {
+
+        let arr = []
+
+        filesArr.forEach(file => {
+            console.log(file)
+            if (file.size > 5 * 1024 * 1024) {
+                alert(`${file.name} je väčši ako 5MB`)
+                return
+            } else {
+                arr.push(file)
+            }
+        })
+
+        const ImageToUploadArr = arr.map(file => {
             return {
                 imagePath: URL.createObjectURL(file),
                 file,
@@ -92,7 +106,7 @@ const ReferenceProvider = ({ children }) => {
 
         setReference({
             ...reference,
-            imagesToUpload: [...reference.imagesToUpload, ...arr]
+            imagesToUpload: [...reference.imagesToUpload, ...ImageToUploadArr]
         })
     }
 
